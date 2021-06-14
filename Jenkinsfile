@@ -3,6 +3,7 @@ pipeline {
 
     tools {
         maven "maven"
+	git "NONE"
     }
     
    parameters {
