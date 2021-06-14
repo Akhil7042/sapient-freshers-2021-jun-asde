@@ -22,7 +22,7 @@ pipeline {
                 echo "************** Running ${env.BUILD_ID} on ${env.JENKINS_URL}***********"
 
 
-                git 'https://github.com/adithnaveen/sapient-freshers-2021-jun-asde.git'
+                git 'https://github.com/Akhil7042/sapient-freshers-2021-jun-asde.git'
 
                 // Run Maven on a Unix agent.
                 bat  "mvn -Dmaven.test.failure.ignore=true clean package"
